@@ -1,0 +1,4 @@
+const concatFiles = require('./concatFile');
+concatFiles(process.argv[2], process.argv.slice(3),()=>{
+    console.log('Files concatenated successfully');
+});
